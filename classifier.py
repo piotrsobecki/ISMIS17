@@ -61,8 +61,8 @@ class DefaultExpertClassifier:
 
 
 class Classifier:
-    def __init__(self, base_proba, confidence_map):
-        self.base_proba = base_proba
+
+    def __init__(self,confidence_map):
         self.confidence_map = confidence_map
 
     def fit(self, X_train, y_train):
